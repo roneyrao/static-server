@@ -1,0 +1,24 @@
+{
+  "name": "static-server",
+  "version": "1.0.0",
+  "description": "simplest static-server with intercept-point for special case",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js 3000 hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roneyrao/static-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roneyrao/static-server/issues"
+  },
+  "homepage": "https://github.com/roneyrao/static-server#readme",
+  "dependencies": {
+    "mime": "^1.3.6"
+  }
+}
