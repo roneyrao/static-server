@@ -9,7 +9,7 @@ const mime = require('mime');
 const port = process.argv[2] || 3000;
 let intercept = process.argv[3]
 if(intercept){
-	intercept=require(`./${intercept}`);
+	intercept=require(path.resolve(process.cwd(), intercept));
 }
 
 process.on('SIGINT', function(){
