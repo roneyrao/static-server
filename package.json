@@ -1,24 +1,24 @@
 {
-  "name": "static-server",
+  "name": "flex-server",
   "version": "1.0.0",
-  "description": "simplest static-server with intercept-point for special case",
+  "description": "simplest static server with intercept-point for special case",
   "main": "index.js",
-  "bin": {"static-server":"index.js"},
+  "bin": {"flex-server":"index.js"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js 3000 hello.js"
+    "start": "node index.js 3000 hello."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roneyrao/static-server.git"
+    "url": "git+https://github.com/roneyrao/flex-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/roneyrao/static-server/issues"
+    "url": "https://github.com/roneyrao/flex-server/issues"
   },
-  "homepage": "https://github.com/roneyrao/static-server#readme",
+  "homepage": "https://github.com/roneyrao/flex-server#readme",
   "dependencies": {
     "mime": "^1.3.6"
   }
